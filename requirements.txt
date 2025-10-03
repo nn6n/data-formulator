@@ -13,3 +13,4 @@ python-dotenv
 vega_datasets
 litellm
 -e . #also need to install data formulator itself
+jupyterlab>=4.4.8 # not directly required, pinned by Snyk to avoid a vulnerability
