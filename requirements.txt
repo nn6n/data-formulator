@@ -13,3 +13,4 @@ python-dotenv
 vega_datasets
 litellm
 -e . #also need to install data formulator itself
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
