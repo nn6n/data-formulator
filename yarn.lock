@@ -694,11 +694,6 @@
     redux-thunk "^2.4.2"
     reselect "^4.1.7"
 
-"@remix-run/router@1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.15.0.tgz#461a952c2872dd82c8b2e9b74c4dfaff569123e2"
-  integrity sha512-HOil5aFtme37dVQTB6M34G95kPM3MMuqSmIRVCC52eKV+Y/tGSqw9P3rWhlAx6A+mz+MoX+XxsGsNJbaI5qCgQ==
-
 "@rollup/rollup-android-arm-eabi@4.31.0":
   version "4.31.0"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.31.0.tgz#d4dd60da0075a6ce9a6c76d71b8204f3e1822285"
@@ -1696,6 +1691,11 @@ convert-source-map@^1.5.0:
   version "1.9.0"
   resolved "https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.9.0.tgz#7faae62353fb4213366d0ca98358d22e8368b05f"
   integrity sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==
+
+cookie@^1.0.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-1.1.1.tgz#3bb9bdfc82369db9c2f69c93c9c3ceb310c88b3c"
+  integrity sha512-ei8Aos7ja0weRpFzJnEA9UHJ/7XQmqglbRwnf2ATjcB9Wq874VKH9kfjjirM6UhU2/E5fFYadylyhFldcqSidQ==
 
 cosmiconfig@^6.0.0:
   version "6.0.0"
@@ -3447,20 +3447,20 @@ react-redux@^8.0.4:
     react-is "^18.0.0"
     use-sync-external-store "^1.0.0"
 
-react-router-dom@^6.22.0:
-  version "6.22.0"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.22.0.tgz#177c8bd27146decbb991eafb5df159f7a9f70035"
-  integrity sha512-z2w+M4tH5wlcLmH3BMMOMdrtrJ9T3oJJNsAlBJbwk+8Syxd5WFJ7J5dxMEW0/GEXD1BBis4uXRrNIz3mORr0ag==
+react-router-dom@^7.0.0:
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-7.12.0.tgz#0f2a059c6b2c4ae04474fe4171c59fb48b9fb8cf"
+  integrity sha512-pfO9fiBcpEfX4Tx+iTYKDtPbrSLLCbwJ5EqP+SPYQu1VYCXdy79GSj0wttR0U4cikVdlImZuEZ/9ZNCgoaxwBA==
   dependencies:
-    "@remix-run/router" "1.15.0"
-    react-router "6.22.0"
+    react-router "7.12.0"
 
-react-router@6.22.0:
-  version "6.22.0"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.22.0.tgz#a22b44851a79dafc6b944cb418db3e80622b9be1"
-  integrity sha512-q2yemJeg6gw/YixRlRnVx6IRJWZD6fonnfZhN1JIOhV2iJCPeRNSH3V1ISwHf+JWcESzLC3BOLD1T07tmO5dmg==
+react-router@7.12.0:
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.12.0.tgz#459a86862abbedd02e76e686751fe71f9fd73a4f"
+  integrity sha512-kTPDYPFzDVGIIGNLS5VJykK0HfHLY5MF3b+xj0/tTyNYL1gF1qs7u67Z9jEhQk2sQ98SUaHxlG31g1JtF7IfVw==
   dependencies:
-    "@remix-run/router" "1.15.0"
+    cookie "^1.0.1"
+    set-cookie-parser "^2.6.0"
 
 react-selectable-fast@^3.4.0:
   version "3.4.0"
@@ -3723,6 +3723,11 @@ semver@^7.6.0, semver@^7.6.2:
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.3.tgz#980f7b5550bc175fb4dc09403085627f9eb33143"
   integrity sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==
+
+set-cookie-parser@^2.6.0:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz#ccd08673a9ae5d2e44ea2a2de25089e67c7edf68"
+  integrity sha512-oeM1lpU/UvhTxw+g3cIfxXHyJRc/uidd3yK1P242gzHds0udQBYzs3y8j4gCCW+ZJ7ad0yctld8RYO+bdurlvw==
 
 set-function-length@^1.2.1:
   version "1.2.2"
