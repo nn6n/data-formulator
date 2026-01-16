@@ -13,3 +13,6 @@ python-dotenv
 vega_datasets
 litellm
 -e . #also need to install data formulator itself
+azure-core>=1.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
